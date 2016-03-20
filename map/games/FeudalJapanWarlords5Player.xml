@@ -780,20 +780,20 @@
   </production>
   <technology>
         </technology>
-  <attatchmentList>
-    <attatchment name="relationshipTypeAttachment" attatchTo="War" javaClass="games.strategy.triplea.attatchments.RelationshipTypeAttachment" type="relationship">
+  <attachmentList>
+    <attachment name="relationshipTypeAttachment" attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
       <option name="archeType" value="war"/>
-    </attatchment>
-    <attatchment name="relationshipTypeAttachment" attatchTo="Allied" javaClass="games.strategy.triplea.attatchments.RelationshipTypeAttachment" type="relationship">
+    </attachment>
+    <attachment name="relationshipTypeAttachment" attachTo="Allied" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
       <option name="archeType" value="allied"/>
       <option name="canMoveLandUnitsOverOwnedLand" value="true"/>
       <option name="givesBackOriginalTerritories" value="false"/>
       <option name="canTakeOverOwnedTerritory" value="true"/>
-    </attatchment>
-    <attatchment name="relationshipTypeAttachment" attatchTo="Neutral" javaClass="games.strategy.triplea.attatchments.RelationshipTypeAttachment" type="relationship">
+    </attachment>
+    <attachment name="relationshipTypeAttachment" attachTo="Neutral" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
       <option name="archeType" value="neutral"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Ashigaru" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Ashigaru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
       <option name="movement" value="1"/>
@@ -801,8 +801,8 @@
       <option name="maxBuiltPerPlayer" value="40"/>
       <option name="createsUnitsList" value="1:Loyalty"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Archer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Archer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="1"/>
@@ -820,8 +820,8 @@
       <option name="attackAA" value="6"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Archers"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Samurai" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Samurai" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="movement" value="1"/>
@@ -829,8 +829,8 @@
       <option name="maxBuiltPerPlayer" value="8"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Samurais"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Ronin" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Ronin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="movement" value="1"/>
@@ -841,8 +841,8 @@
       <option name="constructionsPerTerrPerTypePerTurn" value="5"/>
       <option name="maxConstructionsPerTypePerTerr" value="5"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Teppo" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Teppo" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
       <option name="movement" value="1"/>
@@ -860,8 +860,8 @@
       <option name="attackAA" value="4"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Teppos"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Cavalry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="2"/>
@@ -870,8 +870,8 @@
       <option name="maxBuiltPerPlayer" value="8"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Cavalrys"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Daimyo" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Daimyo" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="2"/>
@@ -891,8 +891,8 @@
       <option name="maxAAattacks" value="1"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Daimyos"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Daimyo1" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Daimyo1" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="2"/>
@@ -912,8 +912,8 @@
       <option name="maxAAattacks" value="1"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Daimyos"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Daimyo2" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Daimyo2" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="2"/>
@@ -933,8 +933,8 @@
       <option name="maxAAattacks" value="1"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Daimyos"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Daimyo3" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Daimyo3" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="2"/>
@@ -954,8 +954,8 @@
       <option name="maxAAattacks" value="1"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Daimyos"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Daimyo4" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Daimyo4" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="2"/>
@@ -975,8 +975,8 @@
       <option name="maxAAattacks" value="1"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Daimyos"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Daimyo5" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Daimyo5" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="6"/>
       <option name="defense" value="6"/>
       <option name="movement" value="2"/>
@@ -996,8 +996,8 @@
       <option name="maxAAattacks" value="1"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Daimyos"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Atakebune" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Atakebune" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
@@ -1009,8 +1009,8 @@
       <option name="requiresUnits" value="Fortress"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Atakebunes"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Oatakebune" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Oatakebune" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="isTwoHit" value="true"/>
@@ -1021,14 +1021,14 @@
       <option name="maxBuiltPerPlayer" value="3"/>
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="createsResourcesList" value="-1:Oatakebunes"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Loyalty" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Loyalty" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isInfrastructure" value="true"/>
       <option name="canProduceUnits" value="true"/>
       <option name="canProduceXUnits" value="1"/>
       <option name="maxDamage" value="1"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Ninja" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Ninja" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isConstruction" value="true"/>
       <option name="constructionType" value="Ninja"/>
       <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
@@ -1050,8 +1050,8 @@
       <option name="targetsAA" value="Ninja"/>
       <option name="maxAAattacks" value="1"/>
       <option name="bombingTargets" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Castle" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Castle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isConstruction" value="true"/>
       <option name="constructionType" value="Castle"/>
       <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
@@ -1072,8 +1072,8 @@
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="whenCapturedChangesInto" value="any:any:false:Loyalty:1"/>
       <option name="createsResourcesList" value="-1:Castles"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Fortress" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Fortress" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isConstruction" value="true"/>
       <option name="constructionType" value="Castle"/>
       <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
@@ -1094,287 +1094,287 @@
       <option name="unitPlacementRestrictions" value="Red:Blue:Green:Orange:Violet"/>
       <option name="whenCapturedChangesInto" value="any:any:false:Castle:1"/>
       <option name="createsResourcesList" value="-1:Forts"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Monster" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Monster" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isInfrastructure" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Start" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Start" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isInfrastructure" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="No" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="No" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isInfrastructure" value="true"/>
-    </attatchment>
-    <attatchment name="unitAttatchment" attatchTo="Credits" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+    </attachment>
+    <attachment name="unitAttachment" attachTo="Credits" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isInfrastructure" value="true"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hizen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hizen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Satsuma" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Satsuma" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Tosa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Tosa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Tosa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Tosa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Aki" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Aki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Bitchu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bitchu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Tajima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tajima" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Settsu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Settsu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Kii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Kii" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Kii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Kii" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Yamashiro" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Yamashiro" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Echizen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Echizen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Owari" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Owari" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Suruga" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Suruga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Echigo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Echigo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Echigo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Echigo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Musashi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Musashi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Musashi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Musashi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="AwaH" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="AwaH" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Mutsu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Mutsu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Buzen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Buzen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Tsushima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tsushima" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Izu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Izu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Bingo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bingo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Ise" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Ise" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Ise" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Ise" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Mutsu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Mutsu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Central Mutsu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Central Mutsu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Inaba" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Inaba" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Iga" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Iga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sagami" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sagami" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Shima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Shima" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Shimosa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Shimosa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Omi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Omi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Wakasa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Wakasa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Bizen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bizen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kawachi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kawachi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Iwami" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Iwami" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Mimasaka" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Mimasaka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Harima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Harima" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Harima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Harima" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Etchu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Etchu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Chikuzen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Chikuzen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Iyo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Iyo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Noto" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Noto" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="East Higo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="East Higo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="West Higo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="West Higo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sado" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sado" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Tango" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tango" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Totomi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Totomi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hoki" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hoki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Mino" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Mino" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Mino" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Mino" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Yamato" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Yamato" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Tamba" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tamba" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Osumi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Osumi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Chikugo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Chikugo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Sanuki" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sanuki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Mikawa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Mikawa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Mikawa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Mikawa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Iki" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Iki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Izumo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Izumo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="AwaS" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="AwaS" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Izumi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Izumi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Nagato" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Nagato" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Bungo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bungo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Oki" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Shinano" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Shinano" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Shinano" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Shinano" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kazusa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kazusa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Suo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Suo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Shimotsuke" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Shimotsuke" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="North Dewa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="North Dewa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="South Dewa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="South Dewa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kaga" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kaga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hida" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hida" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Kozuke" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kozuke" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hyuga" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hyuga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Awaji" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Awaji" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Hitachi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hitachi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Red" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="isImpassible" value="true"/>
       <option name="capital" value="Red"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="isImpassible" value="true"/>
       <option name="capital" value="Blue"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Green" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="isImpassible" value="true"/>
       <option name="capital" value="Green"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="isImpassible" value="true"/>
       <option name="capital" value="Orange"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="isImpassible" value="true"/>
       <option name="capital" value="Violet"/>
-    </attatchment>
-    <attatchment name="territoryAttatchment" attatchTo="Yellow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Yellow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="isImpassible" value="true"/>
-    </attatchment>
+    </attachment>
     <!-- Support Attachments -->
-    <attatchment name="supportAttachmentCastleAttBonus" attatchTo="Castle" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    <attachment name="supportAttachmentCastleAttBonus" attachTo="Castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Cavalry"/>
       <option name="faction" value="enemy"/>
       <option name="side" value="defence"/>
@@ -1384,8 +1384,8 @@
       <option name="bonusType" value="CastleBonusAtt"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="supportAttachmentFortressAttBonus" attatchTo="Fortress" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    </attachment>
+    <attachment name="supportAttachmentFortressAttBonus" attachTo="Fortress" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Cavalry"/>
       <option name="faction" value="enemy"/>
       <option name="side" value="defence"/>
@@ -1395,8 +1395,8 @@
       <option name="bonusType" value="FortressBonusAtt"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="supportAttachmentCastleDefBonus" attatchTo="Castle" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    </attachment>
+    <attachment name="supportAttachmentCastleDefBonus" attachTo="Castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Cavalry:Ashigaru:Teppo:Samurai:Archer:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5"/>
       <option name="faction" value="allied"/>
       <option name="side" value="defence"/>
@@ -1406,8 +1406,8 @@
       <option name="bonusType" value="CastleBonusDef"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="supportAttachmentFortressDefBonus" attatchTo="Fortress" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    </attachment>
+    <attachment name="supportAttachmentFortressDefBonus" attachTo="Fortress" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Cavalry:Ashigaru:Teppo:Samurai:Archer:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5"/>
       <option name="faction" value="allied"/>
       <option name="side" value="defence"/>
@@ -1417,8 +1417,8 @@
       <option name="bonusType" value="FortressBonusDef"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="supportAttachmentArcherdefense" attatchTo="Archer" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    </attachment>
+    <attachment name="supportAttachmentArcherdefense" attachTo="Archer" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Archer"/>
       <option name="faction" value="allied"/>
       <option name="side" value="defence"/>
@@ -1428,8 +1428,8 @@
       <option name="bonusType" value="Bonusa"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="supportAttachmentArcheroffence" attatchTo="Archer" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    </attachment>
+    <attachment name="supportAttachmentArcheroffence" attachTo="Archer" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Archer"/>
       <option name="faction" value="allied"/>
       <option name="side" value="offence"/>
@@ -1439,8 +1439,8 @@
       <option name="bonusType" value="Bonusa"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="supportAttachmentTeppodefense" attatchTo="Teppo" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    </attachment>
+    <attachment name="supportAttachmentTeppodefense" attachTo="Teppo" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Teppo"/>
       <option name="faction" value="allied"/>
       <option name="side" value="defence"/>
@@ -1450,8 +1450,8 @@
       <option name="bonusType" value="Bonust"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="supportAttachmentTeppooffence" attatchTo="Teppo" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+    </attachment>
+    <attachment name="supportAttachmentTeppooffence" attachTo="Teppo" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
       <option name="unitType" value="Teppo"/>
       <option name="faction" value="allied"/>
       <option name="side" value="offence"/>
@@ -1461,69 +1461,69 @@
       <option name="bonusType" value="Bonust"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="impArtTech" value="false"/>
-    </attatchment>
-    <attatchment name="objectiveAttachmentRedstart" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="objectiveAttachmentRedstart" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Red" count="1"/>
       <option name="uses" value="1"/>
       <option name="turns" value="1"/>
-    </attatchment>
-    <attatchment name="objectiveAttachmentBluestart" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="objectiveAttachmentBluestart" attachTo="Blue" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Blue" count="1"/>
       <option name="uses" value="1"/>
       <option name="turns" value="1"/>
-    </attatchment>
-    <attatchment name="objectiveAttachmentGreenstart" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="objectiveAttachmentGreenstart" attachTo="Green" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Green" count="1"/>
       <option name="uses" value="1"/>
       <option name="turns" value="1"/>
-    </attatchment>
-    <attatchment name="objectiveAttachmentOrangestart" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="objectiveAttachmentOrangestart" attachTo="Orange" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Orange" count="1"/>
       <option name="uses" value="1"/>
       <option name="turns" value="1"/>
-    </attatchment>
-    <attatchment name="objectiveAttachmentVioletstart" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="objectiveAttachmentVioletstart" attachTo="Violet" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Violet" count="1"/>
       <option name="uses" value="1"/>
       <option name="turns" value="1"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue2after" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue2after" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
       <option name="turns" value="2-+"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue101" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue101" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
       <option name="turns" value="101"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue1" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
       <option name="turns" value="1:6:11:16:21:26:31:36:41:46:51:56:61:66:71:76:81:86:91:96"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue2" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
       <option name="turns" value="2:7:12:17:22:27:32:37:42:47:52:57:62:67:72:77:82:87:92:97"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue3" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue3" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
       <option name="turns" value="3:8:13:18:23:28:33:38:43:48:53:58:63:68:73:78:83:88:93:98"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue4" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue4" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
       <option name="turns" value="4:9:14:19:24:29:34:39:44:49:54:59:64:69:74:79:84:89:94:99"/>
-    </attatchment>
-    <attatchment name="conditionAttachmenttrue5" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmenttrue5" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
       <option name="turns" value="5:10:15:20:25:30:35:40:45:50:55:60:65:70:75:80:85:90:95:100"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentAshigaruLoyalty" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentAshigaruLoyalty" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="unitType" value="Ashigaru"/>
       <option name="unitProperty" value="createsUnitsList" count="-reset-"/>
@@ -1531,162 +1531,162 @@
       <option name="players" value="Red"/>
       <option name="when" value="before:red1BidPlace"/>
       <option name="uses" value="1"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Ashigarus"/>
       <option name="resourceCount" value="-40"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Ashigarus"/>
       <option name="resourceCount" value="40"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit3" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit3" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Samurais"/>
       <option name="resourceCount" value="-8"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit4" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit4" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Samurais"/>
       <option name="resourceCount" value="8"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit5" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit5" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Archers"/>
       <option name="resourceCount" value="-8"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit6" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit6" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Archers"/>
       <option name="resourceCount" value="8"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit7" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit7" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Teppos"/>
       <option name="resourceCount" value="-8"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit8" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit8" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Teppos"/>
       <option name="resourceCount" value="8"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit9" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit9" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Daimyos"/>
       <option name="resourceCount" value="-3"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit10" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit10" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Daimyos"/>
       <option name="resourceCount" value="3"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit11" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit11" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Castles"/>
       <option name="resourceCount" value="-3"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit12" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit12" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Castles"/>
       <option name="resourceCount" value="3"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit13" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit13" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Forts"/>
       <option name="resourceCount" value="-3"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit14" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit14" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Forts"/>
       <option name="resourceCount" value="3"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit15" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit15" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Atakebunes"/>
       <option name="resourceCount" value="-3"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit16" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit16" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Atakebunes"/>
       <option name="resourceCount" value="3"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit17" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit17" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Oatakebunes"/>
       <option name="resourceCount" value="-3"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit18" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit18" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Oatakebunes"/>
       <option name="resourceCount" value="3"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit19" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit19" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Cavalrys"/>
       <option name="resourceCount" value="-8"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit20" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit20" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Cavalrys"/>
       <option name="resourceCount" value="8"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit21" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit21" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Ronins"/>
       <option name="resourceCount" value="-10"/>
       <option name="when" value="before:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentlimit22" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentlimit22" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="resource" value="Ronins"/>
       <option name="resourceCount" value="10"/>
       <option name="when" value="after:redeEndTurn"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentInitialBid1add" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentInitialBid1add" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo" count="1"/>
       <option name="purchase" value="Ashigaru" count="4"/>
@@ -1696,8 +1696,8 @@
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="when" value="before:red1BidPlace"/>
       <option name="uses" value="1"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentInitialBid2add" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentInitialBid2add" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo" count="1"/>
       <option name="purchase" value="Ashigaru" count="4"/>
@@ -1707,8 +1707,8 @@
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="when" value="before:red2BidPlace"/>
       <option name="uses" value="1"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentInitialBid3add" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentInitialBid3add" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo" count="1"/>
       <option name="purchase" value="Ashigaru" count="4"/>
@@ -1718,8 +1718,8 @@
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="when" value="before:red3BidPlace"/>
       <option name="uses" value="1"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentPromotion" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentPromotion" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo1" count="3"/>
       <option name="purchase" value="Daimyo2" count="3"/>
@@ -1728,8 +1728,8 @@
       <option name="purchase" value="Daimyo5" count="3"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redpromoPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentPromotion" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentPromotion" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo1" count="3"/>
       <option name="purchase" value="Daimyo2" count="3"/>
@@ -1738,8 +1738,8 @@
       <option name="purchase" value="Daimyo5" count="3"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:bluepromoPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentPromotion" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentPromotion" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo1" count="3"/>
       <option name="purchase" value="Daimyo2" count="3"/>
@@ -1748,8 +1748,8 @@
       <option name="purchase" value="Daimyo5" count="3"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:greenpromoPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentPromotion" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentPromotion" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo1" count="3"/>
       <option name="purchase" value="Daimyo2" count="3"/>
@@ -1758,8 +1758,8 @@
       <option name="purchase" value="Daimyo5" count="3"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orangepromoPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentPromotion" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentPromotion" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="purchase" value="Daimyo1" count="3"/>
       <option name="purchase" value="Daimyo2" count="3"/>
@@ -1768,814 +1768,814 @@
       <option name="purchase" value="Daimyo5" count="3"/>
       <option name="players" value="Violet"/>
       <option name="when" value="before:violetpromoPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:red2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:red2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:blue2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:green2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier1Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier1Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redPurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:blue2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:green2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier2Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier2Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redPurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:bluePurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:bluePlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:green2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier3Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier3Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redPurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:bluePurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:bluePlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:greenPurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2Purchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier4Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier4Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2Place"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redPurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:bluePurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:bluePlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:greenPurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenPlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="NothingFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orangePurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNothingFrontier5Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNothingFrontier5Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="frontier" value="PlayerFrontier"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orangePlace"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:red2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:red2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Red3" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Red3" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:red2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Red4" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Red4" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:red2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:blue2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Blue3" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Blue3" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Blue4" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Blue4" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:green2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Green3" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Green3" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Green4" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Green4" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Orange3" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Orange3" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement1Orange4" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement1Orange4" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Red3" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Red3" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Red4" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Red4" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:blue2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Blue3" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Blue3" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Blue4" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Blue4" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blue2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:green2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Green3" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Green3" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Green4" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Green4" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Orange3" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Orange3" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement2Orange4" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement2Orange4" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Red3" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Red3" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Red4" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Red4" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:blueCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Blue3" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Blue3" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Blue4" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Blue4" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:green2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Green3" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Green3" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Green4" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Green4" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:green2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Orange3" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Orange3" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement3Orange4" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement3Orange4" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Red3" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Red3" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Red4" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Red4" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:blueCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Blue3" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Blue3" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Blue4" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Blue4" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:greenCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Green3" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Green3" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Green4" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Green4" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orange2CombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Orange3" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Orange3" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement4Orange4" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement4Orange4" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orange2NonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Red1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Red1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Red2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Red2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Red3" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Red3" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Red4" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Red4" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Blue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Blue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Blue"/>
       <option name="when" value="before:blueCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Blue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Blue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Blue3" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Blue3" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Blue4" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Blue4" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:blueNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Green1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Green1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Green"/>
       <option name="when" value="before:greenCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Green2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Green2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Green3" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Green3" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Green4" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Green4" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:greenNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Orange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Orange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Ninja:Ashigaru:Cavalry:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="0"/>
       <option name="players" value="Orange"/>
       <option name="when" value="before:orangeCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Orange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Orange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Atakebune:Oatakebune:Ashigaru:Teppo:Archer:Samurai:Ronin"/>
       <option name="unitProperty" value="movement" count="1"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orangeNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Orange3" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Orange3" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Daimyo:Daimyo1:Daimyo2:Daimyo3:Daimyo4:Daimyo5:Cavalry"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orangeNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentMovement5Orange4" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentMovement5Orange4" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="unitType" value="Ninja"/>
       <option name="unitProperty" value="movement" count="2"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:orangeNonCombatMove"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentGameover" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentGameover" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue101"/>
       <option name="victory" value="Gameover"/>
       <option name="players" value="Red"/>
       <option name="when" value="before:redPurchase"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentStartmark1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentStartmark1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="removeUnits" value="Red:Start" count="1"/>
       <option name="removeUnits" value="Blue:Start" count="1"/>
@@ -2584,33 +2584,33 @@
       <option name="removeUnits" value="Violet:Start" count="1"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="when" value="before:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentStartmark2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentStartmark2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue1"/>
       <option name="placement" value="Red:Start" count="1"/>
       <option name="when" value="before:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentStartmark3" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentStartmark3" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue2"/>
       <option name="placement" value="Blue:Start" count="1"/>
       <option name="when" value="before:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentStartmark4" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentStartmark4" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue3"/>
       <option name="placement" value="Green:Start" count="1"/>
       <option name="when" value="before:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentStartmark5" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentStartmark5" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue4"/>
       <option name="placement" value="Orange:Start" count="1"/>
       <option name="when" value="before:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentStartmark6" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentStartmark6" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue5"/>
       <option name="placement" value="Violet:Start" count="1"/>
       <option name="when" value="before:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentRoninRemoveall" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentRoninRemoveall" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="removeUnits" value="all:Ronin" count="1"/>
       <option name="removeUnits" value="all:Ronin" count="2"/>
@@ -2624,173 +2624,173 @@
       <option name="removeUnits" value="all:Ronin" count="10"/>
       <option name="players" value="Red:Blue:Green:Orange:Violet"/>
       <option name="when" value="before:redEndTurn"/>
-    </attatchment>
-    <attatchment name="rulesAttatchment" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="rulesAttachment" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="placementCapturedTerritory" value="true"/>
-    </attatchment>
-    <attatchment name="rulesAttatchment" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="rulesAttachment" attachTo="Blue" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="placementCapturedTerritory" value="true"/>
-    </attatchment>
-    <attatchment name="rulesAttatchment" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="rulesAttachment" attachTo="Green" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="placementCapturedTerritory" value="true"/>
-    </attatchment>
-    <attatchment name="rulesAttatchment" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="rulesAttachment" attachTo="Orange" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="placementCapturedTerritory" value="true"/>
-    </attatchment>
-    <attatchment name="rulesAttatchment" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="rulesAttachment" attachTo="Violet" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="placementCapturedTerritory" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentRedNinja" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentRedNinja" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="map" count="1"/>
       <option name="unitPresence" value="Ninja" count="1"/>
       <option name="invert" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentNinjaConditionRed" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentNinjaConditionRed" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentBlueNinja" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentBlueNinja" attachTo="Blue" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="map" count="1"/>
       <option name="unitPresence" value="Ninja" count="1"/>
       <option name="invert" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentNinjaConditionBlue" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentNinjaConditionBlue" attachTo="Blue" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentGreenNinja" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentGreenNinja" attachTo="Green" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="map" count="1"/>
       <option name="unitPresence" value="Ninja" count="1"/>
       <option name="invert" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentNinjaConditionGreen" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentNinjaConditionGreen" attachTo="Green" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentOrangeNinja" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentOrangeNinja" attachTo="Orange" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="map" count="1"/>
       <option name="unitPresence" value="Ninja" count="1"/>
       <option name="invert" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentNinjaConditionOrange" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentNinjaConditionOrange" attachTo="Orange" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentVioletNinja" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentVioletNinja" attachTo="Violet" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="directPresenceTerritories" value="map" count="1"/>
       <option name="unitPresence" value="Ninja" count="1"/>
       <option name="invert" value="true"/>
-    </attatchment>
-    <attatchment name="conditionAttachmentNinjaConditionViolet" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+    </attachment>
+    <attachment name="conditionAttachmentNinjaConditionViolet" attachTo="Violet" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaRed" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaRed" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="purchase" value="Ninja" count="1"/>
       <option name="players" value="Red"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaActionRed" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaActionRed" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Red"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachmentNinjaRed"/>
       <option name="playerProperty" value="chance" count="1:6"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionRed1" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionRed1" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Red"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionRed"/>
       <option name="playerProperty" value="switch" count="false"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionRed2" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionRed2" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="players" value="Red"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionRed"/>
       <option name="playerProperty" value="switch" count="true"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaBlue" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaBlue" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="purchase" value="Ninja" count="1"/>
       <option name="players" value="Blue"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaActionBlue" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaActionBlue" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Blue"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachmentNinjaBlue"/>
       <option name="playerProperty" value="chance" count="1:6"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionBlue1" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionBlue1" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Blue"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionBlue"/>
       <option name="playerProperty" value="switch" count="false"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionBlue2" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionBlue2" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="players" value="Blue"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionBlue"/>
       <option name="playerProperty" value="switch" count="true"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaGreen" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaGreen" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="purchase" value="Ninja" count="1"/>
       <option name="players" value="Green"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaActionGreen" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaActionGreen" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Green"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachmentNinjaGreen"/>
       <option name="playerProperty" value="chance" count="1:6"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionGreen1" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionGreen1" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Green"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionGreen"/>
       <option name="playerProperty" value="switch" count="false"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionGreen2" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionGreen2" attachTo="Green" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="players" value="Green"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionGreen"/>
       <option name="playerProperty" value="switch" count="true"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaOrange" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaOrange" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="purchase" value="Ninja" count="1"/>
       <option name="players" value="Orange"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaActionOrange" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaActionOrange" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Orange"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachmentNinjaOrange"/>
       <option name="playerProperty" value="chance" count="1:6"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionOrange1" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionOrange1" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Orange"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionOrange"/>
       <option name="playerProperty" value="switch" count="false"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionOrange2" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionOrange2" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="players" value="Orange"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionOrange"/>
       <option name="playerProperty" value="switch" count="true"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaViolet" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaViolet" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="purchase" value="Ninja" count="1"/>
       <option name="players" value="Violet"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaActionViolet" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaActionViolet" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Violet"/>
       <option name="playerAttachmentName" value="UserActionAttachment" count="userActionAttachmentNinjaViolet"/>
       <option name="playerProperty" value="chance" count="1:6"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionViolet1" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionViolet1" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="players" value="Violet"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionViolet"/>
       <option name="playerProperty" value="switch" count="false"/>
-    </attatchment>
-    <attatchment name="triggerAttachmentNinjaConditionViolet2" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+    </attachment>
+    <attachment name="triggerAttachmentNinjaConditionViolet2" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
       <option name="players" value="Violet"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachmentNinjaConditionViolet"/>
       <option name="playerProperty" value="switch" count="true"/>
       <option name="when" value="after:redUserActions"/>
-    </attatchment>
-    <attatchment name="userActionAttachmentNinjaRed" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.UserActionAttachment" type="player">
+    </attachment>
+    <attachment name="userActionAttachmentNinjaRed" attachTo="Red" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentRedNinja:conditionAttachmentNinjaConditionRed:conditionAttachmenttrue2after"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaRed:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaActionRed:1:false:false:false:false"/>
@@ -2800,8 +2800,8 @@
       <option name="chanceIncrementOnFailure" value="1"/>
       <option name="costPU" value="10"/>
       <option name="attemptsPerTurn" value="3"/>
-    </attatchment>
-    <attatchment name="userActionAttachmentNinjaBlue" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.UserActionAttachment" type="player">
+    </attachment>
+    <attachment name="userActionAttachmentNinjaBlue" attachTo="Blue" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentBlueNinja:conditionAttachmentNinjaConditionBlue:conditionAttachmenttrue2after"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaBlue:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaActionBlue:1:false:false:false:false"/>
@@ -2811,8 +2811,8 @@
       <option name="chanceIncrementOnFailure" value="1"/>
       <option name="costPU" value="10"/>
       <option name="attemptsPerTurn" value="3"/>
-    </attatchment>
-    <attatchment name="userActionAttachmentNinjaGreen" attatchTo="Green" javaClass="games.strategy.triplea.attatchments.UserActionAttachment" type="player">
+    </attachment>
+    <attachment name="userActionAttachmentNinjaGreen" attachTo="Green" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentGreenNinja:conditionAttachmentNinjaConditionGreen:conditionAttachmenttrue2after"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaGreen:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaActionGreen:1:false:false:false:false"/>
@@ -2822,8 +2822,8 @@
       <option name="chanceIncrementOnFailure" value="1"/>
       <option name="costPU" value="10"/>
       <option name="attemptsPerTurn" value="3"/>
-    </attatchment>
-    <attatchment name="userActionAttachmentNinjaOrange" attatchTo="Orange" javaClass="games.strategy.triplea.attatchments.UserActionAttachment" type="player">
+    </attachment>
+    <attachment name="userActionAttachmentNinjaOrange" attachTo="Orange" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentOrangeNinja:conditionAttachmentNinjaConditionOrange:conditionAttachmenttrue2after"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaOrange:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaActionOrange:1:false:false:false:false"/>
@@ -2833,8 +2833,8 @@
       <option name="chanceIncrementOnFailure" value="1"/>
       <option name="costPU" value="10"/>
       <option name="attemptsPerTurn" value="3"/>
-    </attatchment>
-    <attatchment name="userActionAttachmentNinjaViolet" attatchTo="Violet" javaClass="games.strategy.triplea.attatchments.UserActionAttachment" type="player">
+    </attachment>
+    <attachment name="userActionAttachmentNinjaViolet" attachTo="Violet" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
       <option name="conditions" value="conditionAttachmentVioletNinja:conditionAttachmentNinjaConditionViolet:conditionAttachmenttrue2after"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaViolet:1:false:false:false:false"/>
       <option name="activateTrigger" value="triggerAttachmentNinjaActionViolet:1:false:false:false:false"/>
@@ -2844,8 +2844,8 @@
       <option name="chanceIncrementOnFailure" value="1"/>
       <option name="costPU" value="10"/>
       <option name="attemptsPerTurn" value="3"/>
-    </attatchment>
-  </attatchmentList>
+    </attachment>
+  </attachmentList>
   <initialize>
     <ownerInitialize>
       <territoryOwner territory="Red" owner="Red"/>
