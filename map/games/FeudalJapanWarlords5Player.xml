@@ -1351,27 +1351,27 @@
       <option name="production" value="10"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Red" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="capital" value="Red"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Blue" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="capital" value="Blue"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Green" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="capital" value="Green"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Orange" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="capital" value="Orange"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Violet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="capital" value="Violet"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Yellow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <!-- Support Attachments -->
     <attachment name="supportAttachmentCastleAttBonus" attachTo="Castle" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
