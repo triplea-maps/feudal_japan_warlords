@@ -947,7 +947,7 @@
       <option name="movement" value="1"/>
       <option name="attack" value="4"/>
       <option name="defense" value="4"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="transportCapacity" value="2"/>
       <option name="isSea" value="true"/>
       <option name="maxBuiltPerPlayer" value="3"/>
@@ -959,7 +959,7 @@
     <attachment name="unitAttachment" attachTo="Oatakebune" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="movement" value="1"/>
       <option name="transportCapacity" value="3"/>
       <option name="isSea" value="true"/>
@@ -1410,42 +1410,42 @@
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Red" count="1"/>
       <option name="uses" value="1"/>
-      <option name="turns" value="1"/>
+      <option name="rounds" value="1"/>
     </attachment>
     <attachment name="objectiveAttachmentBluestart" attachTo="Blue" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Blue" count="1"/>
       <option name="uses" value="1"/>
-      <option name="turns" value="1"/>
+      <option name="rounds" value="1"/>
     </attachment>
     <attachment name="objectiveAttachmentGreenstart" attachTo="Green" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="-810"/>
       <option name="directOwnershipTerritories" value="Green" count="1"/>
       <option name="uses" value="1"/>
-      <option name="turns" value="1"/>
+      <option name="rounds" value="1"/>
     </attachment>
     <attachment name="conditionAttachmenttrue" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
     </attachment>
     <attachment name="conditionAttachmenttrue2after" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-      <option name="turns" value="2-+"/>
+      <option name="rounds" value="2-+"/>
     </attachment>
     <attachment name="conditionAttachmenttrue101" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-      <option name="turns" value="101"/>
+      <option name="rounds" value="101"/>
     </attachment>
     <attachment name="conditionAttachmenttrue1" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-      <option name="turns" value="1:4:7:10:13:16:19:22:25:28:31:34:37:40:43:46:49:52:55:58:61:64:67:70:73:76:79:82:85:88:91:94:97:100"/>
+      <option name="rounds" value="1:4:7:10:13:16:19:22:25:28:31:34:37:40:43:46:49:52:55:58:61:64:67:70:73:76:79:82:85:88:91:94:97:100"/>
     </attachment>
     <attachment name="conditionAttachmenttrue2" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-      <option name="turns" value="2:5:8:11:14:17:20:23:26:29:32:35:38:41:44:47:50:53:56:59:62:65:68:71:74:77:80:83:86:89:92:95:98"/>
+      <option name="rounds" value="2:5:8:11:14:17:20:23:26:29:32:35:38:41:44:47:50:53:56:59:62:65:68:71:74:77:80:83:86:89:92:95:98"/>
     </attachment>
     <attachment name="conditionAttachmenttrue3" attachTo="Red" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
-      <option name="turns" value="3:6:9:12:15:18:21:24:27:30:33:36:39:42:45:48:51:54:57:60:63:66:69:72:75:78:81:84:87:90:93:96:99"/>
+      <option name="rounds" value="3:6:9:12:15:18:21:24:27:30:33:36:39:42:45:48:51:54:57:60:63:66:69:72:75:78:81:84:87:90:93:96:99"/>
     </attachment>
     <attachment name="triggerAttachmentAshigaruLoyalty" attachTo="Red" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmenttrue"/>
@@ -2155,10 +2155,10 @@
     <property name="Tech Development" value="false" editable="false">
       <boolean/>
     </property>
-    <property name="Units repair at end of round" value="false" editable="false">
+    <property name="Units Repair Hits End Turn" value="false" editable="false">
       <boolean/>
     </property>
-    <property name="Units repair at beginning of round" value="true" editable="false">
+    <property name="Units Repair Hits Start Turn" value="true" editable="false">
       <boolean/>
     </property>
     <property name="Two HitPoint Units Require Repair Facilities" value="true" editable="false">
