@@ -3024,8 +3024,6 @@
     <property name="Unplaced units live when not placed" value="false" editable="false">
       <boolean/>
     </property>
-      <boolean/>
-    </property>
     <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
       <boolean/>
     </property>
