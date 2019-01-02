@@ -2391,7 +2391,7 @@
       <option name="text" value="NINJA"/>
       <option name="chance" value="1:6"/>
       <option name="chanceIncrementOnFailure" value="1"/>
-      <option name="costPU" value="10"/>
+      <option name="costResources" value="PUs" count="10"/>
       <option name="attemptsPerTurn" value="3"/>
     </attachment>
     <attachment name="userActionAttachmentNinjaBlue" attachTo="Blue" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
@@ -2402,7 +2402,7 @@
       <option name="text" value="NINJA"/>
       <option name="chance" value="1:6"/>
       <option name="chanceIncrementOnFailure" value="1"/>
-      <option name="costPU" value="10"/>
+      <option name="costResources" value="PUs" count="10"/>
       <option name="attemptsPerTurn" value="3"/>
     </attachment>
     <attachment name="userActionAttachmentNinjaGreen" attachTo="Green" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
@@ -2413,7 +2413,7 @@
       <option name="text" value="NINJA"/>
       <option name="chance" value="1:6"/>
       <option name="chanceIncrementOnFailure" value="1"/>
-      <option name="costPU" value="10"/>
+      <option name="costResources" value="PUs" count="10"/>
       <option name="attemptsPerTurn" value="3"/>
     </attachment>
     <attachment name="userActionAttachmentNinjaOrange" attachTo="Orange" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
@@ -2424,7 +2424,7 @@
       <option name="text" value="NINJA"/>
       <option name="chance" value="1:6"/>
       <option name="chanceIncrementOnFailure" value="1"/>
-      <option name="costPU" value="10"/>
+      <option name="costResources" value="PUs" count="10"/>
       <option name="attemptsPerTurn" value="3"/>
     </attachment>
   </attachmentList>
