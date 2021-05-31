@@ -1,0 +1,5 @@
+map_name: feudal_japan_warlords
+games:
+- {game_name: Feudal Japan Warlords 3 Player, file_name: FeudalJapanWarlords3Player.xml}
+- {game_name: Feudal Japan Warlords 5 Player, file_name: FeudalJapanWarlords5Player.xml}
+- {game_name: Feudal Japan Warlords 4 or 2 Player, file_name: FeudalJapanWarlords4Player.xml}
